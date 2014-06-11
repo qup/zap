@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>{{ title }}</title>
+
+      <style type="text/css">
+         * {
+            padding: 0;
+            margin: 0;
+         }
+
+         html, body {
+            background-color: rgb(39, 43, 48);
+            color: rgb(200, 200, 200);
+            width: 100%;
+            height: 100%;
+         }
+
+         iframe {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            border: 0;
+            margin: auto;
+
+            padding: 0;
+
+            overflow: hidden;
+
+            width: 760px;
+            height: 600px;
+         }
+      </style>
+   </head>
+
+   <body>
+      <iframe tabindex='0' seamless='true' autofocus='true' scrolling='no' src='game.html' align='middle'>
+      </iframe>
+
+      <script type="text/javascript">
+         // Give focus to the iframe window.
+         document.getElementsByTagName('iframe')[0].contentWindow.focus();
+      </script>
+   </body>
+</html>

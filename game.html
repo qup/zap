@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>{{ title }}</title>
+
+      <style type="text/css">
+         * {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            cursor: none;
+         }
+      </style>
+
+      <script src='zap.min.js' type='application/javascript'></script>
+   </head>
+
+   <body>
+      <noscript>
+         <p>JavaScript is required in order to play this game.</p>
+      </noscript>
+
+      <script type='application/javascript'>
+         game = new Game(window);
+         game.pushState(new GamePlayState());
+      </script>
+   </body>
+</html>
