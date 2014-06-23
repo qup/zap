@@ -1,0 +1,76 @@
+{
+   "image": "images/hero.png",
+   "frames": [
+      {
+         "top": 0,
+         "left": 0,
+         "right": 10,
+         "bottom": 10
+      },
+      {
+         "top": 0,
+         "left": 10,
+         "right": 20,
+         "bottom": 10
+      },
+      {
+         "top": 0,
+         "left": 20,
+         "right": 30,
+         "bottom": 10
+      },
+      {
+         "top": 0,
+         "left": 30,
+         "right": 40,
+         "bottom": 10
+      },
+      {
+         "top": 0,
+         "left": 40,
+         "right": 50,
+         "bottom": 10
+      },
+
+      {
+         "top": 10,
+         "left": 0,
+         "right": 10,
+         "bottom": 20
+      },
+      {
+         "top": 10,
+         "left": 10,
+         "right": 20,
+         "bottom": 20
+      },
+      {
+         "top": 10,
+         "left": 20,
+         "right": 30,
+         "bottom": 20
+      },
+      {
+         "top": 10,
+         "left": 30,
+         "right": 40,
+         "bottom": 20
+      },
+      {
+         "top": 10,
+         "left": 40,
+         "right": 50,
+         "bottom": 20
+      }
+   ],
+
+   "animations": {
+      "idle": {
+         "frames": [0, 1, 2, 3, 4]
+      },
+
+      "walk": {
+         "frames": [5, 6, 7, 8, 9]
+      }
+   }
+}

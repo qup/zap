@@ -1,0 +1,17 @@
+{
+   "image": "images/bullet.png",
+   "frames": [
+      {
+         "top": 0,
+         "left": 0,
+         "right": 4,
+         "bottom": 4
+      }
+   ],
+
+   "animations": {
+      "idle": {
+         "frames": [0, 0]
+      }
+   }
+}
